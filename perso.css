@@ -1,24 +1,67 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap');
 
-html,body {
-	font-family: 'Raleway', sans-serif;
-	line-height: 1.6;
+
+html, body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+	margin: 0px;
 }
 
 /* unvisited link */
 a:link {
-   color: black;
+   color: rgb(87, 6, 140);
 	 text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-   color: black;
+   color: rgb(87, 6, 140);
 	 text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-   color: rgb(30, 103, 181);
+   color: rgb(137, 0, 255);
 	 text-decoration: none;
+}
+
+.outerhead {
+	background-color: rgb(87, 6, 140);
+	color: white;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.head {
+	max-width:1024px;
+	background-color: rgb(87, 6, 140);
+	color: white;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin:auto;
+}
+
+
+.head a:link {
+   color: white;
+	 text-decoration: none;
+}
+
+.head a:visited {
+   color: white;
+	 text-decoration: none;
+}
+
+.head a:hover {
+   color: rgb(171, 130, 197);
+	 text-decoration: none;
+}
+
+.outerlastfoot {
+	background-color: rgb(51, 6, 96);
+	color: white;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
