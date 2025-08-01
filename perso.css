@@ -1,33 +1,33 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400&display=swap&text=%CA%81%C9%91);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap);
 
   
 html, body {
-	font-family: 'Montserrat', 'M Plus 1p', 'Arial', sans-serif;
+	font-family: 'Roboto', 'Noto Sans';
 	line-height: 1.5;
 	margin: 0px;
 }
 
 /* unvisited link */
 a:link {
-   color: rgb(87, 6, 140);
+   color: rgb(1, 33, 105);
 	 text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-   color: rgb(87, 6, 140);
+   color: rgb(1, 33, 105);
 	 text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-   color: rgb(137, 0, 255);
+   color: rgb(0, 83, 155);
 	 text-decoration: none;
 }
 
 .outerhead {
-	background-color: rgb(87, 6, 140);
+	background-color: rgb(1, 33, 105);
 	color: white;
 	margin: 0px;
 	padding-bottom: 10px;
@@ -36,7 +36,7 @@ a:hover {
 
 .head {
 	max-width:1024px;
-	background-color: rgb(87, 6, 140);
+	background-color: rgb(1, 33, 105);
 	color: white;
 	padding-right: 25px;
 	padding-left: 25px;
@@ -55,12 +55,12 @@ a:hover {
 }
 
 .head a:hover {
-   color: rgb(171, 130, 197);
+   color: rgb(0, 83, 155);
 	 text-decoration: none;
 }
 
 .outerlastfoot {
-	background-color: rgb(51, 6, 96);
+	background-color: rgb(0, 83, 155);
 	color: white;
 	margin: 0px;
 	padding-bottom: 10px;
