@@ -34,6 +34,12 @@ a:hover {
 	padding-top: 10px;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .head {
 	max-width:1024px;
 	background-color: rgb(0, 80, 53);
@@ -43,6 +49,9 @@ a:hover {
 	margin:auto;
 }
 
+.head .sec-color {
+  color: rgb(164, 150, 101);
+}
 
 .head a:link {
    color: white;
